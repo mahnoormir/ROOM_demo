@@ -46,7 +46,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
         holder.update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, GetData.class);
+                Intent intent = new Intent(context, UpdateData.class);
                 intent.putExtra("id", String.valueOf(list.get(position).getKey()));
                 intent.putExtra("name", String.valueOf(list.get(position).getName()));
                 intent.putExtra("age", String.valueOf(list.get(position).getAge()));
