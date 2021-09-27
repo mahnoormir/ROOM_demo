@@ -26,7 +26,7 @@
         android:id="@+id/Age"
         android:layout_marginTop="30sp"
         android:layout_marginRight="20sp"
-        android:hint="phone no"
+        android:hint="Age"
         android:padding="20sp"
         android:singleLine="true" />
 
